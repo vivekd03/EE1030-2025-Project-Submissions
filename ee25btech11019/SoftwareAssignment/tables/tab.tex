@@ -1,0 +1,14 @@
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|c|c|l|}
+\hline
+\textbf{Algorithm}        & \textbf{Time} & \textbf{Accuracy} & \textbf{Suitability} \\ \hline
+QR Algorithm              & \( O(kn^3) \) & High              & General; complex/real matrices \\ \hline
+Power Iteration           & \( O(kn^2) \) & Low (dominant)    & Simple; large sparse matrices  \\ \hline
+Jacobi Method             & \( O(n^3) \)  & High              & Symmetric matrices             \\ \hline
+Divide-and-Conquer        & \( O(n^3) \)  & High              & Large dense symmetric matrices \\ \hline
+Arnoldi/Lanczos           & \( O(kn^2) \) & High              & Sparse matrices; dominant eigenvalues \\ \hline
+\end{tabular}
+\label{tab:eigen-algorithms}
+\caption{Comparison of singularvalue Computation Algorithms}
+\end{table}
